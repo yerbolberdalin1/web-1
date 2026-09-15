@@ -1,34 +1,15 @@
 body {
-    background-color: lightgray;
+    background-color: #f2f2f2;
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
-.header {
-    background-color: lightblue;
-    padding: 15px;
-    border: 2px solid black;
-    margin-bottom: 20px;
-}
-
-.main {
-    background-color: white;
-    padding: 20px;
-    border: 1px solid gray;
-}
-
-#main-heading {
-    color: darkred;
-}
-
-.highlight {
-    background-color: yellow;
-    width: 100px;
-    padding: 5px;
-}
-
 h1 {
-    color: darkblue;
+    color: #1f3a5f;
+}
+
+h3 {
+    color: #333333;
 }
 
 p {
@@ -36,100 +17,125 @@ p {
 }
 
 a {
-    color: blue;
-}
-
-.my-photo {
-    width: 30%;
-    max-width: 250px;
-    border: 3px solid black;
-    margin: 10px;
+    color: #1f3a5f;
 }
 
 table {
     border-collapse: collapse;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 15px 0;
+    width: 90%;
 }
 
-table, th, td {
-    border: 1px solid black;
-}
-
-th, td {
+th,
+td {
+    border: 1px solid #555555;
     padding: 8px;
+    text-align: left;
 }
 
-.menu-table {
-    width: 70%;
+th {
+    background-color: #dddddd;
 }
 
 button {
+    background-color: #e0e0e0;
+    border: 1px solid #555555;
     padding: 7px 15px;
-    margin-bottom: 20px;
 }
 
-form {
-    border: 2px solid gray;
+.top-part {
+    background-color: #e6f2ff;
+    border: 2px solid #555555;
     padding: 15px;
-    width: 300px;
+    position: static;
+    text-align: center;
+}
+
+.page-main {
+    background-color: white;
+    border: 1px solid #777777;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #e6f2ff;
+    border: 1px solid #555555;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.highlight {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+#main-heading {
+    color: #7a2e2e;
+    font-size: 36px;
+}
+
+.my-photo {
+    border: 2px solid #555555;
+    margin: 10px 0;
+    width: 30%;
 }
 
 .position-area {
-    position: relative;
+    border: 1px solid #555555;
     height: 150px;
-    border: 1px solid black;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .static-box {
-    position: static;
-    background-color: lightgreen;
-    width: 100px;
+    background-color: #eeeeee;
     padding: 10px;
+    position: static;
+    width: 100px;
 }
 
 .relative-box {
-    position: relative;
+    background-color: #eeeeee;
     left: 30px;
-    top: 10px;
-    background-color: lightyellow;
-    width: 8em;
     padding: 10px;
+    position: relative;
+    top: 10px;
+    width: 8em;
 }
 
 .absolute-box {
+    background-color: #eeeeee;
+    padding: 10px;
     position: absolute;
     right: 10px;
     top: 20px;
-    background-color: pink;
     width: 7rem;
-    padding: 10px;
 }
 
-.left-box {
+.learning-box {
+    background-color: #f7f7f7;
+    border: 1px solid #777777;
+    padding: 15px;
+}
+
+.html-note {
+    background-color: white;
+    border: 1px solid #777777;
     float: left;
-    background-color: lightblue;
-    width: 40%;
     padding: 10px;
+    width: 40%;
 }
 
-.right-box {
+.css-note {
+    background-color: white;
+    border: 1px solid #777777;
     float: right;
-    background-color: lightgreen;
-    width: 40%;
     padding: 10px;
+    width: 40%;
 }
 
 .clear {
     clear: both;
-    height: 20px;
-}
-
-.footer {
-    background-color: lightblue;
-    border: 1px solid black;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
 }
